@@ -40,11 +40,6 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link btn btn-primary" href="#">
-                About
-              </a>
-            </li>
           </ul>
         </div>
       </div>
