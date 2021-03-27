@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row">
           <div className="col text-center text-white">
             <p>
-              Created with <FontAwesomeIcon icon={faHeart} style={{ color: "tomato" }} /> By Rinaldy <br />
+              Created with <FontAwesomeIcon icon={faHeart} style={{ color: "tomato" }} /> By Եվɑցɑժҽѵ <br />
               @2021
             </p>
           </div>

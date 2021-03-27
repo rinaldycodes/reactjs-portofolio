@@ -1,6 +1,7 @@
 import React from "react";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
+import cafeYupi from "../assets/cafe-yupi.JPG";
 import "./Project.css";
 
 const options = {
@@ -40,24 +41,26 @@ const Project = () => {
             </div>
             <div className="row mb-5">
               <div className="col-md-3 col-6 my-3">
-                <a href="https://rinaldycodes.github.io/my-portofolio/images/jobboard.jpg">
-                  <img className="img-fluid" src="https://rinaldycodes.github.io/my-portofolio/images/jobboard.jpg" alt="Job Board" />
-                </a>
+                <div className="card card-project">
+                  <a href="https://rinaldycodes.github.io/my-portofolio/images/jobboard.jpg">
+                    <img className="img-fluid" src="https://rinaldycodes.github.io/my-portofolio/images/jobboard.jpg" alt="Job Board" />
+                  </a>
+                  <div className="card-body d-flex justify-content-between">
+                    <a href="https://github.com/rinaldycodes/job-board">Github</a>
+                    <a href="#">Demo</a>
+                  </div>
+                </div>
               </div>
               <div className="col-md-3 col-6 my-3">
-                <a href="https://rinaldycodes.github.io/my-portofolio/images/smpn4.jpg">
-                  <img className="img-fluid" src="https://rinaldycodes.github.io/my-portofolio/images/smpn4.jpg" alt="Web Sekolah" />
-                </a>
-              </div>
-              <div className="col-md-3 col-6 my-3">
-                <a href="https://rinaldycodes.github.io/my-portofolio/images/portofolio.jpg">
-                  <img className="img-fluid" src="https://rinaldycodes.github.io/my-portofolio/images/portofolio.jpg" alt="Portofolio using bootstrap 5" />
-                </a>
-              </div>
-              <div className="col-md-3 col-6 my-3">
-                <a href="https://rinaldycodes.github.io/my-portofolio/images/tambunhost.jpg">
-                  <img className="img-fluid" src="https://rinaldycodes.github.io/my-portofolio/images/tambunhost.jpg" alt="Tambun Hosting" />
-                </a>
+                <div className="card card-project">
+                  <a href={cafeYupi}>
+                    <img className="img-fluid" src={cafeYupi} alt="Cafe Yupi" />
+                  </a>
+                  <div className="card-body d-flex justify-content-between">
+                    <a href="https://github.com/rinaldycodes/cafe-yupi-pro/">Github</a>
+                    <a href="https://rinaldycodes.github.io/cafe-yupi-pro/">Demo</a>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="row">
