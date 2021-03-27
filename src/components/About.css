@@ -22,3 +22,12 @@ img.photo {
 .typed-text-about {
   font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+  #about a.btn-hero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0px;
+  }
+}

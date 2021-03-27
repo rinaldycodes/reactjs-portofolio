@@ -21,7 +21,7 @@ const About = () => {
             </p>
             <h4>Technologies that I use:</h4>
             <Typed className="typed-text-about" strings={["HTML, CSS, Javascript.", "Laravel, Codeigniter, React.js, Flutter."]} typeSpeed={40} backSpeed={60} loop /> <br />
-            <a href={cv} className="btn btn-primary px-5 mt-5">
+            <a href={cv} className="btn btn-primary px-5 mt-5 btn-hero">
               DOWNLOAD CV
             </a>
           </div>

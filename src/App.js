@@ -4,6 +4,7 @@ import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
+import Project from "./components/Project";
 function App() {
   return (
     <div>
@@ -30,8 +31,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      {/* skills */}
-      {/* PORTOFOLIO */}
+      <Project />
     </div>
   );
 }
